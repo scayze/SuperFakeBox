@@ -7,7 +7,7 @@ Shotgun::Shotgun(Spielfeld * s) : Weapon(s)
 {
 	//Change Body type to a Rect
 	maxFireDelay = 45;
-	name = "Schrotze";
+	name = "SCHROTZE";
 	onePress = true;
 	knockback = 5.5;
 	screenShakeAmount = 12;

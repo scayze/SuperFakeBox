@@ -6,7 +6,7 @@ Pistol::Pistol(Spielfeld * s) : Weapon(s)
 {
 	//Change Body type to a Rect
 	maxFireDelay = 7;
-	name = "Pistuuul";
+	name = "PISTUUL";
 	onePress = true;
 	setKnockback(0.2f);
 	screenShakeAmount = 6;

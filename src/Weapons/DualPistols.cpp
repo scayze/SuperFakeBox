@@ -8,7 +8,7 @@ DualPistols::DualPistols(Spielfeld * s) : Weapon(s)
 {
 	//Change Body type to a Rect
 	maxFireDelay = 7;
-	name = "DualPistuul";
+	name = "DUAL PISTUUL";
 	onePress = true;
 	screenShakeAmount = 5;
 	Resources::loadTexture(tex,"dualpistol.png");

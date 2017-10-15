@@ -7,7 +7,7 @@ MineDropper::MineDropper(Spielfeld * s) : Weapon(s)
 {
 	//Change Body type to a Rect
 	maxFireDelay = 60;
-	name = "Drop it like its hoooot";
+	name = "DROP IT LIKE ITS HOT";
 	screenShakeAmount = 0;
 	Resources::loadTexture(tex,"minegun.png");
 }

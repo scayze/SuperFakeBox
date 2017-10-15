@@ -6,7 +6,7 @@
 DiscGun::DiscGun(Spielfeld * s) : Weapon(s)
 {
 	maxFireDelay = 25;
-	name = "Fruit Ninja";
+	name = "FRUIT NINJA";
 	screenShakeAmount = 1;
 	Resources::loadTexture(tex,"discgun.png");
 }

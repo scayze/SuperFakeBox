@@ -32,17 +32,17 @@ Spielfeld::Spielfeld(sf::RenderWindow *window)
 	deathScreen = false;
 
 	//Load font and create the score text
-	scoreText.setFont(Resources::getFont("emulogic.ttf"));
+	scoreText.setFont(Resources::getFont("Pixeled.ttf"));
 	scoreText.setPosition(window->getSize().x/2,100);
 
 	//Load font and create the Notification text
-	notification.setFont(Resources::getFont("emulogic.ttf"));
+	notification.setFont(Resources::getFont("Pixeled.ttf"));
 	notification.setPosition(window->getSize().x/2,175);
 
 	//Load font and create the Notification text
-	restartMessage.setFont(Resources::getFont("emulogic.ttf"));
+	restartMessage.setFont(Resources::getFont("Pixeled.ttf"));
 	restartMessage.setPosition(window->getSize().x/2,window->getSize().y / 5 * 3);
-	restartMessage.setString("Press ENTER to restart.");
+	restartMessage.setString("PRESS 'ENTER' TO RESTART.");
 	restartMessage.setOrigin(restartMessage.getCharacterSize() * restartMessage.getString().getSize() / 2, restartMessage.getCharacterSize());
 
 	//Objects
@@ -227,7 +227,7 @@ void Spielfeld::spawnCrate()
 	createObject<Crate>(crate_spawn_x,crate_spawn_y);
 
 	score++;
-	scoreText.setString(std::to_string((long long)score));
+	scoreText.setString(std::to_string(score));
 	scoreText.setOrigin(scoreText.getCharacterSize() * scoreText.getString().getSize() / 2, scoreText.getCharacterSize());
 }
 
